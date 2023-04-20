@@ -2010,8 +2010,10 @@ hr {
     padding-right: 0;
   }
   .cs-left_full_width {
-    width: 100%;
-    margin-left: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
   }
   .cs-left_sided_img {
     text-align: center;
@@ -2588,6 +2590,7 @@ hr {
 
 .cs-site_branding img {
   height: 45px;
+  padding-left: 5px;
 }
 
 @media screen and (min-width: 1200px) {
