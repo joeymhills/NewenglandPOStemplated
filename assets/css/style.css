@@ -685,7 +685,7 @@ hr {
 }
 
 .cs-gradient_bg_1 {
-  background: linear-gradient(257.51deg, #F2FCFE 44.07%, #FAF1FE 100%);
+  background: linear-gradient(to top right, #A5D7E8,20%, white);
 }
 
 .cs-accent_seperator_1 {
@@ -2421,9 +2421,7 @@ hr {
 }
 
 .cs-site-branding {
-  display: inline-block;
-  max-width: 180px;
-}
+  display: inline-block;}
 
 .cs-site_header.cs-style1 {
   position: absolute;
@@ -2789,7 +2787,7 @@ li.menu-item-has-children
 
 @media screen and (max-width: 1360px) {
   .cs-site-branding {
-    max-width: 190px;
+   min-width: 190px;
   }
   .cs-site_header_full_width .container {
     max-width: 100%;
@@ -2986,7 +2984,7 @@ li.menu-item-has-children
 
 @media screen and (max-width: 575px) {
   .cs-site-branding {
-    max-width: 150px;
+    transform: scale(10);
   }
   .cs-header_toolbox {
     margin-right: 44px;
@@ -3163,7 +3161,7 @@ li.menu-item-has-children
 .cs-hero.cs-style1 .cs-hero_secondary_title {
   font-weight: 300;
   font-size: 16px;
-  color: #47C4C0;
+  color: #576CBC;
   margin-bottom: 4px;
 }
 

@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
+
+.header-logo {
+    transform: 200%;
+}
+
+.home {
+    height: 105vh;
+    background: linear-gradient(to right, white,70%, #6DA9E4);
+
+}
+
+.home h1 {
+    clear: both;
+    color: #1C2528;
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-weight: 600;
+    line-height: 1.2em;
+    font-family: 'Poppins', sans-serif;
+}
