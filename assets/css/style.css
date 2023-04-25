@@ -617,10 +617,8 @@ hr {
   border-top: 1px solid #f2f1ff;
 }
 
-.cs-bg {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+.cs-bg2 {
+  background: linear-gradient(to top left,white,70%, #ADE4DB);
 }
 
 .cs-vertical_middle {
@@ -685,7 +683,7 @@ hr {
 }
 
 .cs-gradient_bg_1 {
-  background: linear-gradient(to top right, #A5D7E8,20%, white);
+  background: linear-gradient(to top right, #ADE4DB,20%, white);
 }
 
 .cs-accent_seperator_1 {
@@ -923,7 +921,7 @@ hr {
 }
 
 .cs-seciton_heading.cs-style1 .cs-section_subtitle {
-  color: #52C8C4;
+  color: #6DA9E4;
   margin-bottom: 0;
 }
 
