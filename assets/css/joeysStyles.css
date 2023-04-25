@@ -19,3 +19,24 @@
     line-height: 1.2em;
     font-family: 'Poppins', sans-serif;
 }
+
+
+/* Video center */
+
+.video-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    padding: 2em;
+}
+
+.video-bg {
+    background: linear-gradient(to top right, #6DA9E4,70%, white);
+
+}
+
+.video-bg h1 {
+    padding: 3.5em 0 2em 0;
+}
