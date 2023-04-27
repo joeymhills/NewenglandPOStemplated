@@ -682,8 +682,13 @@ hr {
   background-color: #1C2528;
 }
 
+.home {
+  background: linear-gradient(to bottom left,#457b9d,#a8dadc, white);
+
+}
+
 .cs-gradient_bg_1 {
-  background: linear-gradient(to top right, #ADE4DB,20%, white);
+  background: linear-gradient(to left, #a8dadc, white);
 }
 
 .cs-accent_seperator_1 {
@@ -1183,7 +1188,7 @@ hr {
           justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  background-color: #6990FF;
+  background-color: #7c7ee7;
   border-radius: 10px;
   padding: 85px 0;
   position: relative;
