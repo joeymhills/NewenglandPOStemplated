@@ -111,11 +111,15 @@
     var scroll = $(window).scrollTop();
     if (scroll >= 30) {
       $(".cs-sticky-header").addClass("cs-sticky-active");
-      $(".header-logo").attr('src','assets/img/logo.png')
+      /*
+      $(".header-logo").attr('src','assets/img/logo.png');
+      */
     } 
     else {
       $(".cs-sticky-header").removeClass("cs-sticky-active");
+      /*
       $(".header-logo").attr("src","assets/img/white on transparent.png");
+      */
       }
   }
 
