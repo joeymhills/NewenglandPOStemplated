@@ -617,9 +617,6 @@ hr {
   border-top: 1px solid #f2f1ff;
 }
 
-.cs-bg2 {
-  background: linear-gradient(to top left,white,70%, #ADE4DB);
-}
 
 .cs-vertical_middle {
   display: -webkit-box;
@@ -656,16 +653,16 @@ hr {
 }
 
 .cs-primary_color {
-  color: #1C2528;
+  color: black;
 }
 
 .cs-accent_color,
 .cs-accent_color_hover:hover {
-  color: #6990FF;
+  color: #457b9d;
 }
 
 .cs-white_bg {
-  background-color: #fff;
+  background-color: transparent;
 }
 
 .cs-gray_bg {
@@ -683,12 +680,15 @@ hr {
 }
 
 .home {
-  background: linear-gradient(to bottom left,#457b9d,#a8dadc, white);
+  background: linear-gradient(to bottom left,#457b9d,#a8dadc, #f1faee);
 
 }
 
 .cs-gradient_bg_1 {
-  background: linear-gradient(to left, #a8dadc, white);
+  background: linear-gradient(to left, #a8dadc, #f1faee);
+}
+.cs-bg2 {
+  background: linear-gradient(to bottom right,#f1faee, #a8dadc,#457b9d);
 }
 
 .cs-accent_seperator_1 {
@@ -737,7 +737,7 @@ hr {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #6990FF;
+  background-color: #1d3557;
   color: #fff;
   border: none;
   border-radius: 7px;
@@ -2467,6 +2467,7 @@ hr {
 
 .cs-site_header.cs-style1.cs-sticky-active {
   background-color: #fff;
+  color:black;
   -webkit-box-shadow: 0 10px 10px -10px rgba(33, 43, 53, 0.1);
           box-shadow: 0 10px 10px -10px rgba(33, 43, 53, 0.1);
 }
@@ -2578,6 +2579,9 @@ hr {
 }
 
 .cs-site_header.cs-sticky-header {
+  color: white;
+  background-color: rgba(0,0,0,.15);
+  background-blend-mode: multiply;
   position: fixed;
   z-index: 200;
   width: 100%;
@@ -2832,23 +2836,23 @@ li.menu-item-has-children
     position: absolute;
     width: 100vw;
     left: -15px;
-    background-color: #fff;
+    background-color: rgba(0,0,0,.15);
+    background-blend-mode: multiply;
     padding: 10px 0;
     display: none;
     top: 100%;
-    border-top: 1px solid #E5E5E5;
-    border-bottom: 1px solid #E5E5E5;
     overflow: auto;
     max-height: calc(100vh - 80px);
     line-height: 1.6em;
   }
   .cs-nav .cs-nav_list ul {
-    padding-left: 15px;
+    padding-left: 2em;
     display: none;
   }
   .cs-nav .cs-nav_list a {
     display: block;
     padding: 8px 20px;
+    padding-left: 45px;
   }
   .cs-nav .menu-item-has-children {
     position: relative;
@@ -3118,7 +3122,7 @@ li.menu-item-has-children
 
 .cs-hero.cs-style1 .cs-hero_img {
   position: absolute;
-  top: 50%;
+  top: 45%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   left: 50%;
@@ -3152,6 +3156,7 @@ li.menu-item-has-children
 
 .cs-hero.cs-style1 .cs-hero_text {
   position: relative;
+  transform: translateY(-50px);
   z-index: 2;
 }
 
@@ -3164,7 +3169,7 @@ li.menu-item-has-children
 .cs-hero.cs-style1 .cs-hero_secondary_title {
   font-weight: 300;
   font-size: 16px;
-  color: #576CBC;
+  color: #1d3557;
   margin-bottom: 4px;
 }
 

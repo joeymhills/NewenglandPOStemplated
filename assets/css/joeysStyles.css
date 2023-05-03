@@ -1,7 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
 
 .header-logo {
-    transform: 200%;
+transition: .7s;
+transform: scale(80%);
+position: fixed;
+top:1.15em;
+left: 0em;
+}
+
+.footer-logo {
+    display:block;
+    left:1em;
 }
 
 
