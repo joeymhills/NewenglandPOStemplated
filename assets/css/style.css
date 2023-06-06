@@ -2093,11 +2093,7 @@ hr {
 }
 
 @media screen and (max-width: 575px) {
-  .hero-img-size {
-    min-width:300px;
-    min-height:240px;
-  
-  }
+
   .cs-seciton_heading.cs-style1 .cs-section_title {
     font-size: 30px;
   }
@@ -3169,10 +3165,10 @@ li.menu-item-has-children
 }
 
 .hero-img-size {
-  min-width:600px;
-  min-height:480px;
-
+  min-width:300px;
+  min-height:240px;
 }
+
 
 .cs-hero.cs-style1 .cs-hero_img_bg {
   position: absolute;
@@ -3587,12 +3583,17 @@ li.menu-item-has-children
       -ms-flex: none;
           flex: none;
   margin-right: 15px;
+  
 }
 
 .cs-iconbox.cs-style2 .cs-iconbox_title {
   font-size: 20px;
   margin: 0;
   text-align: left;
+}
+.cs-iconbox.cs-style2 .cs-iconbox_icon img {
+  width: 75px;
+  height: 75px;
 }
 
 .cs-iconbox.cs-style3 {
@@ -3670,7 +3671,6 @@ li.menu-item-has-children
   .cs-iconbox.cs-style2 .cs-iconbox_icon img {
     width: 50px;
     height: 50px;
-    color:#6990FF;
   }
   .cs-iconbox.cs-style2 .cs-iconbox_title {
     font-size: 18px;
